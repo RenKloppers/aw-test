@@ -1,0 +1,36 @@
+<section>
+{{#if isEditing}}
+    <button type="button" class="btn btn-default" {{action 'save'}}>Save</button>
+{{else}}
+    <button type="button" class="btn btn-default" {{action 'edit'}}>Edit</button>
+{{/if}}
+</section>
+
+{{#each fieldObjects as |field|}}
+  {{ log controller }}
+    <dt>{{field.fieldDef.title}}</dt>
+    <dd>
+        {{#if isEditing}}
+            {{#if field.isBoolean}}
+                {{input type="checkbox" checked=field.value}}
+              {{else}}
+              {{#if field.isOption}}
+                {{ log controller }}
+                {{view "select"
+                  content=roles
+                  optionLabelPath="content.roleName"
+                  selection=selectedRole
+                  prompt="Select a role"}}
+              {{else}}
+                {{input value=field.value}}
+            {{/if}}
+            {{/if}}
+        {{else}}
+            {{#if field.isBoolean}}
+                {{if field.value 'Yes' 'No'}}
+            {{else}}
+                {{field.value}}
+            {{/if}}
+        {{/if}}
+    </dd>
+{{/each}}

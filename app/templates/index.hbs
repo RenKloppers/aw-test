@@ -1,0 +1,68 @@
+
+<h2>Home</h2>
+
+<ol>
+    <li>Congratulations! If you can see this in your browser you've successfully installed and run the application</li>
+    <li>First, check out the current functionality:
+        <ol type="a">
+            <li>Head to 'Details'</li>
+            <li>In the code, take a look at:
+                <ul>
+                    <li><code>templates/details</code></li>
+                    <li><code>models/detail-field,contact</code></li>
+                    <li><code>server/mocks/detail-fields,contacts</code></li>
+                    <li><code>components/render-fields</code></li>
+                    <li><code>templates/components/render-fields</code></li>
+                </ul>
+            </li>
+            <li><em>Task:</em> Fix the bug that is preventing the 'First Name' from appearing</li>
+        </ol>
+    </li>
+
+    <li>Background to existing functionality:
+        <ul>
+            <li>A mobile application for a travelling <em>sales rep</em>, to enable them to manage
+            contact data for their customers.</li>
+            <li>For each of our clients, the list of data fields held
+            against a contact will vary, therefore these fields should be configurable. This is setup
+            and managed by the <em>app administrator</em></li>
+
+            <li><strong>In order that</strong> I always have up-to-date information about my customers' contacts</li>
+            <li><strong>As a</strong> sales rep</li>
+            <li><strong>I want</strong> to view and edit this information</li>
+            <li>---</li>
+
+            <li><strong>In order that</strong> I can provide my users with relevant information</li>
+            <li><strong>As an</strong> app administrator</li>
+            <li><strong>I want</strong> to be able to configure the fields that are available in the app</li>
+        </ul>
+    </li>
+
+    <li><em>Task:</em> A request has been received that, instead of a free-entry text field, the 'Role'
+    should be selectable from a set of options. Implement this, based on the following:
+        <ul>
+            <li><strong>In order that</strong> I can easily switch a contact's role</li>
+            <li><strong>As a</strong> sales rep</li>
+            <li><strong>I want</strong> to be able to select a new role from a set of options</li>
+            <li>--</li>
+
+            <li><strong>In order that</strong> I can provide my users with a relevant list of roles</li>
+            <li><strong>As an</strong> app administrator</li>
+            <li><strong>I want</strong> to be able to adjust the list of available roles</li>
+            <li>(assume that the data will be managed elsewhere, but mock up the api and some example data in the
+            same way as <code>render-fields</code>)</li>
+        </ul>
+    </li>
+
+    <li><em>Task:</em> Once you're done, ensure that all tests still pass (and even better, add some of your own), make sure your code is all committed. Bring that code along to the interview.</li>
+
+    <li><em>Task:</em> Prepare, for discussion at interview, a design for improvements to this app to enable the UI to be internationalised into multiple languages. Present this in the way you feel best suited. You might want to include consideration of:
+        <ul>
+            <li>Necessary data objects</li>
+            <li>Patterns to use and avoid</li>
+            <li>Helper functions and UI components</li>
+        </ul>
+    </li>
+</ol>
+
+{{outlet}}

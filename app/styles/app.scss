@@ -1,0 +1,74 @@
+@import "bootstrap";
+
+//Added scss vars and mixin to clean things up a bit and add some basic styling
+$bg-color: #B0B0B0;
+$body-content-padding: 10px;
+
+$ember-view--font-size: 1.1em;
+$ember-view--fmargin-left: 4%;
+
+$h1-header--color: #56565A;
+$h1-header--font-size: 2.6em;
+$h1-header--font-family: "Lato", sans-serif !important;
+$h1-header--letter-spacing: -2px;
+$h1-header--margin-bottom: 30px;
+$h1-header--text-align: center;
+
+$h2-header--color: #C3463C;
+$h2-header--font-size: 2.5em;
+$h2-header--font-family: "Lato", sans-serif !important;
+$h2-header--line-height: 60px;
+$h2-header--letter-spacing: 0.2px;
+$h2-header--margin-bottom: 5px;;
+$h2-header--text-align: center;
+
+@mixin padding ($padding: none) {
+  padding-top: $padding;
+}
+
+@mixin style-header (
+  $color: none,
+  $font-size: none,
+  $font-family: none,
+  $letter-spacing: none,
+  $margin-bottom:none,
+  $text-align: none )
+{
+  color: $color;
+  font-size: $font-size;
+  font-family: $font-family;
+  letter-spacing: $letter-spacing;
+  margin-bottom: $margin-bottom;
+  text-align: $text-align;
+}
+
+body {
+  @include padding($body-content-padding);
+  background-color: $bg-color;
+}
+
+h1 {
+  @include style-header(
+    $h1-header--color,
+    $h1-header--font-size,
+    $h1-header--font-family,
+    $h1-header--letter-spacing,
+    $h1-header--margin-bottom,
+    $h1-header--text-align);
+}
+
+h2 {
+  @include style-header(
+  $h2-header--color,
+  $h2-header--font-size,
+  $h2-header--font-family,
+  $h2-header--letter-spacing,
+  $h2-header--margin-bottom,
+  $h2-header--text-align);
+  font-weight: 300;
+}
+
+.ember-view .dl-horizontal {
+  font-size: $ember-view--font-size;
+  margin-left: $ember-view--fmargin-left;
+}

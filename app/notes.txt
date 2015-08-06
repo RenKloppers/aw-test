@@ -1,0 +1,12 @@
+//contact overview design
+
+Router: this.resource('contact');
+        App.ContactRoute
+
+Controller: App.ContactController
+
+Model: App.Contact
+
+View: App.ContactView
+
+Template: contact
