@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/class-tmp_cache_dir-NKHWkRzI.tmp/assets/aw-framework-test.js

@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/funnel-output_path-kO0LoA1g.tmp/ember-data/ember-data.js

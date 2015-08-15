@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/app/models/detail-field.js

@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/tree_merger-tmp_dest_dir-4qL3H1oN.tmp/controllers/object.js

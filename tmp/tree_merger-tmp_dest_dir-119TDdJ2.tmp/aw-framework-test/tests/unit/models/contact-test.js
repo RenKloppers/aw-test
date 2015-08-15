@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/babel-cache_path-fGHtzUSo.tmp/aw-framework-test/tests/unit/models/contact-test.js

@@ -1,0 +1,4 @@
+module('JSHint - integration/components');
+test('integration/components/render-fields-test.js should pass jshint', function() { 
+  ok(false, 'integration/components/render-fields-test.js should pass jshint.\nintegration/components/render-fields-test.js: line 63, col 3, \'equal\' is not defined.\nintegration/components/render-fields-test.js: line 69, col 5, \'assert\' is not defined.\n\n2 errors'); 
+});

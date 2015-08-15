@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/babel-cache_path-k3xiscje.tmp/aw-framework-test/initializers/export-application-global.js

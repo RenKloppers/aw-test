@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/funnel-output_path-1AvAcLjB.tmp/aw-framework-test/tests/unit/adapters/application-test.jshint.js

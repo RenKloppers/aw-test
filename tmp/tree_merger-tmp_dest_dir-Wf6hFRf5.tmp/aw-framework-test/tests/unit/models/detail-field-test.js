@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/babel-output_path-Zom4huSm.tmp/aw-framework-test/tests/unit/models/detail-field-test.js

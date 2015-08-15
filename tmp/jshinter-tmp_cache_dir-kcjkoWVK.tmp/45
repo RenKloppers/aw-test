@@ -1,0 +1,4 @@
+module('JSHint - components');
+test('components/render-fields.js should pass jshint', function() { 
+  ok(false, 'components/render-fields.js should pass jshint.\ncomponents/render-fields.js: line 104, col 19, \'field\' is not defined.\n\n1 error'); 
+});

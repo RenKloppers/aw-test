@@ -1,0 +1,4 @@
+module('JSHint - unit/models');
+test('unit/models/detail-field-test.js should pass jshint', function() { 
+  ok(false, 'unit/models/detail-field-test.js should pass jshint.\nunit/models/detail-field-test.js: line 5, col 11, \'model\' is not defined.\n\n1 error'); 
+});

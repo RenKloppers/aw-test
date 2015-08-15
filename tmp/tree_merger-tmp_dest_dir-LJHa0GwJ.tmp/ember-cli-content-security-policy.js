@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/funnel-output_path-K7YzVRRB.tmp/ember-cli-content-security-policy.js

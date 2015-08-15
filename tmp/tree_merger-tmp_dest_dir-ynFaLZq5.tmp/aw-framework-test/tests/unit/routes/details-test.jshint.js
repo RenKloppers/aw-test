@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/jshinter-tmp_cache_dir-NDM4msyn.tmp/7

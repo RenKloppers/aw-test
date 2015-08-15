@@ -1,0 +1,4 @@
+module('JSHint - controllers');
+test('controllers/controller.js should pass jshint', function() { 
+  ok(false, 'controllers/controller.js should pass jshint.\ncontrollers/controller.js: line 2, col 1, \'ResAdmin\' is not defined.\ncontrollers/controller.js: line 2, col 34, \'Ember\' is not defined.\n\n2 errors'); 
+});

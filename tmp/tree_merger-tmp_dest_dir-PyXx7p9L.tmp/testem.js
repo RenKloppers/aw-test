@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/node_modules/ember-cli/lib/broccoli/testem.js

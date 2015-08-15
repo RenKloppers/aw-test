@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/babel-cache_path-9AeVd4Uu.tmp/aw-framework-test/routes/details.js

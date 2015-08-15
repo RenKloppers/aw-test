@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/funnel-output_path-mOMDmJ2V.tmp/ember-qunit-notifications/README.md

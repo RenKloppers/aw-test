@@ -1,0 +1,4 @@
+module('JSHint - controllers');
+test('controllers/controller.js should pass jshint', function() { 
+  ok(false, 'controllers/controller.js should pass jshint.\ncontrollers/controller.js: line 4, col 8, \'Ember\' is defined but never used.\n\n1 error'); 
+});

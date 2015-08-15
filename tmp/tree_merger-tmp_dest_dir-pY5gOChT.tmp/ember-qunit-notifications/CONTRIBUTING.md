@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/funnel-output_path-w8tcRawl.tmp/ember-qunit-notifications/CONTRIBUTING.md

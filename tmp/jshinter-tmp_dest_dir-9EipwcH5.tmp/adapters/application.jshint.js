@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/jshinter-tmp_cache_dir-F05dDJ0v.tmp/0

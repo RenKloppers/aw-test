@@ -1,0 +1,4 @@
+module('JSHint - controllers');
+test('controllers/controller.js should pass jshint', function() { 
+  ok(false, 'controllers/controller.js should pass jshint.\ncontrollers/controller.js: line 1, col 1, \'App\' is not defined.\ncontrollers/controller.js: line 1, col 22, \'Ember\' is not defined.\ncontrollers/controller.js: line 7, col 12, \'App\' is not defined.\n\n3 errors'); 
+});

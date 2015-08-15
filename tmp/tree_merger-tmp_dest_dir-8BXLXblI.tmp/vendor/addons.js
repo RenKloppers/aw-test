@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/class-tmp_cache_dir-1Wd8rAbX.tmp/addons.js

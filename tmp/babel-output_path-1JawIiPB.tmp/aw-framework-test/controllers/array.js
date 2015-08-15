@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/babel-cache_path-yKZXKg0R.tmp/aw-framework-test/controllers/array.js

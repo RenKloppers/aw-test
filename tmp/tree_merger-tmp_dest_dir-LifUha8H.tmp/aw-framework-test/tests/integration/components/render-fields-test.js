@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/babel-output_path-u1l7Ju3U.tmp/aw-framework-test/tests/integration/components/render-fields-test.js

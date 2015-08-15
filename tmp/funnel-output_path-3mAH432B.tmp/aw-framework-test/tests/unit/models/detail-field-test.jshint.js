@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/jshinter-tmp_dest_dir-mx8CJAKf.tmp/unit/models/detail-field-test.jshint.js

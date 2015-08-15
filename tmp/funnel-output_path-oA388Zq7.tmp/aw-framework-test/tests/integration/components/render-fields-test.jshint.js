@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/jshinter-tmp_dest_dir-Rbbt6h7I.tmp/integration/components/render-fields-test.jshint.js

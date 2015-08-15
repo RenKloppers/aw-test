@@ -1,0 +1,1 @@
+/Users/Ren/Dev/aw-framework-test/tmp/class-tmp_cache_dir-aO2q1Fjn.tmp/assets/vendor.js
